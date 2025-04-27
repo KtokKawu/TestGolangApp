@@ -4,7 +4,7 @@
     
     <div v-if="loading" class="loading">Loading tasks...</div>
     <div v-else-if="error" class="error">{{ error }}</div>
-    <div v-else-if="tasks.length === 0" class="no-tasks">
+    <div v-else-if="!tasks || tasks.length === 0" class="no-tasks">
       No tasks found. Create a new one!
     </div>
     
