@@ -2,8 +2,6 @@ package database
 
 import (
 	"database/sql"
-	"fmt"
-	"log"
 	"testgolangapp/server/internal/models"
 
 	_ "github.com/mattn/go-sqlite3"
